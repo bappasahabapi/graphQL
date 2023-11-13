@@ -1,36 +1,44 @@
-###    Branches:
+### Branches:
 
-- 0🏷️ [Main](https://github.com/bappasahabapi/graphQL)
-- 1🏷️ [Products](https://github.com/bappasahabapi/graphQL/tree/bappa/01/schema)
+- 3🏷️ [1-1 and 1-many relationship of product and category](https://github.com/bappasahabapi/graphQL/tree/bappa/03/relationship)
 - 2🏷️ [Project File Structure](https://github.com/bappasahabapi/graphQL/tree/bappa/02/file-structure)
+- 1🏷️ [Products](https://github.com/bappasahabapi/graphQL/tree/bappa/01/schema)
+- 0🏷️ [Main](https://github.com/bappasahabapi/graphQL)
 
+### Full installation instructions.
 
-
-###    Full installation instructions.
-
--   https://www.apollographql.com/docs/apollo-server/getting-started
+- https://www.apollographql.com/docs/apollo-server/getting-started
 
 ### Run the server
-- `npm start` 
+
+- `npm start`
 - [🚀 Server ready at: http://localhost:4000/]
 - `npm run compile`
 
-
 ## working through documentation
 
-* [Schema Basic](https://www.apollographql.com/docs/apollo-server/schema/schema/#scalar-types)
+- [Schema Basic](https://www.apollographql.com/docs/apollo-server/schema/schema/#scalar-types)
 
 What we do:
 
- **⚙️ Products**
+**⚙️ Product+ category relationship**
+
+- 🏷️ **GET all product and based on their category**
+  ![All products](./screenshot/rel.png)
+- 🏷️ **GET single product based on their category**
+  ![Single product](./screenshot/singrel.png)
+
+**⚙️ Products**
+
 - 🏷️ **GET all products**
-![All products](./screenshot/allProduct.png)
+  ![All products](./screenshot/rel.png)
 - 🏷️ **GET single product**
-![Single product](./screenshot//singleProduct.png)
+  ![Single product](./screenshot//singleProduct.png)
 
- **⚙️ Categories**
+**⚙️ Categories**
+
 - 🏷️ **GET all categories**
-![All](./screenshot/caragories.png)
+  ![All](./screenshot/caragories.png)
 
-- 🏷️ **GET single category**
-![Single](./screenshot/singleCatagory.png)
+- 🏷️ **GET single**
+  ![Single](./screenshot/singleCatagory.png)
