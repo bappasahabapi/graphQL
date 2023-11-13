@@ -1,7 +1,8 @@
 ###    Branches:
 
-- 1🏷️ [Main](https://github.com/bappasahabapi/graphQL)
-- 2🏷️ [Products](https://github.com/bappasahabapi/graphQL/tree/bappa/01/schema)
+- 0🏷️ [Main](https://github.com/bappasahabapi/graphQL)
+- 1🏷️ [Products](https://github.com/bappasahabapi/graphQL/tree/bappa/01/schema)
+- 2🏷️ [Project File Structure](https://github.com/bappasahabapi/graphQL/tree/bappa/02/file-structure)
 
 
 
