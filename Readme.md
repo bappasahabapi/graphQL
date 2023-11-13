@@ -1,3 +1,10 @@
+###    Branches:
+
+- 1🏷️ [Main](https://github.com/bappasahabapi/graphQL)
+- 2🏷️ [Products](https://github.com/bappasahabapi/graphQL/tree/bappa/01/schema)
+
+
+
 ###    Full installation instructions.
 
 -   https://www.apollographql.com/docs/apollo-server/getting-started
