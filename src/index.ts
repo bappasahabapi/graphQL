@@ -15,21 +15,26 @@ const typeDefs = `#graphql
         price:Float
         quantity:Int
         onStock:Boolean
-        category:String
+        category:String 
     }
     
   type Query {
    products:[Product]
+   product(productId:ID!):Product
   }
 `;
 
-
-
+// 2a089dca-d882-4305-9e25-d1dfeb93fd12
 // Resolvers define how to fetch the types defined in your schema.
 // This resolver retrieves books from the "books" array above.
 const resolvers = {
     Query: {
        products : () => db.products,
+       product: (parent:any,args:{productId:string},context:any) => {
+        // console.log(parent,args,context);
+        const result =db.products.find(pd =>pd.id === args.productId)
+        return result;
+       }
     },
 };
 
