@@ -26,6 +26,9 @@ export const resolvers = {
             // console.log(parent.categoryId);
             const result = db.categories.find(category => category.id === parent.categoryId);
             return result;
+        },
+        reviews: ({ id }, args: any, context: any) => {
+            return db.reviews.filter(review => review.productId === id);
         }
     },
 
@@ -34,7 +37,7 @@ export const resolvers = {
         products:(parent: any, args: any, context: any)=>{
             // console.log(parent.id);
             // const result =db.products.filter(product=>console.log(product));
-            
+
             const result =db.products.filter(product=>product.categoryId === parent.id);
             return result
         }

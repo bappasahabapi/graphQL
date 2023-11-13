@@ -21,6 +21,13 @@
 
 What we do:
 
+**⚙️ Relationship Product -> category -> review (one-to-many)**
+
+- 🏷️ **GET all product**
+  ![All products](./screenshot/review.png)
+- 🏷️ **GET single product**
+  ![Single product](./screenshot/resingle.png)
+
 **⚙️ Relationship Product to category (one-to-one)**
 
 - 🏷️ **GET all product and based on their category**
