@@ -21,12 +21,20 @@
 
 What we do:
 
-**⚙️ Product+ category relationship**
+**⚙️ Relationship Product to category (one-to-one)**
 
 - 🏷️ **GET all product and based on their category**
   ![All products](./screenshot/rel.png)
 - 🏷️ **GET single product based on their category**
   ![Single product](./screenshot/singrel.png)
+
+**⚙️ Relationship category to Product  (one-to-many)**
+
+- 🏷️ **GET all product and based on their category**
+
+  ![All products](./screenshot/ctp.png)
+- 🏷️ **GET single product based on their category**
+  ![Single product](./screenshot/c1tp.png)
 
 **⚙️ Products**
 
