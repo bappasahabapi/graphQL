@@ -22,7 +22,15 @@
 
 What we do:
 
+ **⚙️ Products**
 - 🏷️ **GET all products**
 ![All products](./screenshot/allProduct.png)
 - 🏷️ **GET single product**
 ![Single product](./screenshot//singleProduct.png)
+
+ **⚙️ Categories**
+- 🏷️ **GET all categories**
+![All](./screenshot/caragories.png)
+
+- 🏷️ **GET single category**
+![Single](./screenshot/singleCatagory.png)
